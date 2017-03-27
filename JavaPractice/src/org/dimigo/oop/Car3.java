@@ -32,15 +32,17 @@ public class Car3 {
 		this.price = price;
 	}
 	public Car3(String company, String model, String color, int maxSpeed){
-		this.company = company;
-		this.model = model;
-		this.color = color;
-		this.maxSpeed = maxSpeed;
+//		this.company = company;
+//		this.model = model;
+//		this.color = color;
+//		this.maxSpeed = maxSpeed;
+		this(company, model, color, 0, 0);
 	}
 	public Car3(String company, String model, String color){
-		this.company = company;
-		this.model = model;
-		this.color = color;
+//		this.company = company;
+//		this.model = model;
+//		this.color = color;
+		this(company, model, color, 0);
 	}
 	
 	
