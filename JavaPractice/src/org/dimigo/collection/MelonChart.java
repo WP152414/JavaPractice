@@ -41,7 +41,8 @@ public class MelonChart {
 		printList(list);
 		System.out.println("");
 		System.out.println("-- << 전체 리스트 삭제 >> --");
-		
+		list.clear();
+		printList(list);
 	}
 	
 	public static void printList(List<Music> list) {
